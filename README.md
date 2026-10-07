@@ -1,8 +1,6 @@
 # Hi! I'm Georges!
 
-## - About Me
-
-**Computer Science Student · Data Engineering**
+## **Computer Science Student · Data Engineering**
 
 I am a Computer Science student at École 42 Paris, currently developing a
 specialization in Data Engineering through hands-on projects and self-directed learning.
@@ -13,7 +11,7 @@ and efficient.
 
 ---
 
-I am particularly interested in:  
+## Areas of Interest
 - **Data Engineering**  
 Data Pipelines · ETL · Data Processing · Data Architecture
 
@@ -25,7 +23,7 @@ Optimization · Efficient Data Processing · Scalability
 
 ---
 
-## - Featured Projects
+## Featured Projects
 
 ### --- [Cryptocurrency Paper Trading Platform](https://github.com/Frogus-ex/ft_transcendence)  
 **Group project · École 42**  
@@ -46,9 +44,16 @@ Python · FastAPI · RedisTimeSeries · Celery · PostgreSQL · WebSockets
 
 ---
 
-## - Currently learning
+## Currently Learning
 
 - Apache Spark / PySpark
 - Databricks
 - Delta Lake
 - Cloud data platforms
+
+---
+
+## Contacts  
+
+Email: **wengeorgesxin@gmail.com**  
+LinkedIn: **www.linkedin.com/in/georges-xin-wen-10092a361**

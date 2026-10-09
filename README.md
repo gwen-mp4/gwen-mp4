@@ -30,7 +30,7 @@ Optimization · Efficient Data Processing · Scalability
 *Work in progress*  
 A full-stack paper trading platform based on real-time cryptocurrency
 market data from Binance.  
-<ins>**My contribution — Backend & Data Ingestion**</ins>  
+<ins>**My contribution — Data Ingestion & API Server Backend**</ins>  
 
 - Real-time market data ingestion
 - Data validation and transformation

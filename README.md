@@ -20,7 +20,7 @@ Optimization · Efficient Data Processing · Scalability
 ## 📂 Featured Projects
 
 ### --- [Cryptocurrency Paper Trading Platform](https://github.com/Frogus-ex/ft_transcendence)  
-**Group project · École 42**  — *Work in progress*  
+**Group project · École 42**
 A full-stack paper trading platform based on real-time cryptocurrency
 market data from Binance.  
 <ins>**My contribution — Data Ingestion & API Server Backend**</ins>  

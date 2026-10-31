@@ -19,11 +19,13 @@ Optimization · Efficient Data Processing · Scalability
 
 ## 📂 Featured Projects
 
-### --- [Cryptocurrency Paper Trading Platform](https://github.com/Frogus-ex/ft_transcendence)  
-**Group project · École 42**
+### [Cryptocurrency Paper Trading Platform](https://github.com/Frogus-ex/ft_transcendence)  
+**Group project · École 42**  
 A full-stack paper trading platform based on real-time cryptocurrency
 market data from Binance.  
 <ins>**My contribution — Data Ingestion & API Server Backend**</ins>  
+<ins>**Technologies:**</ins>  
+Python · FastAPI · RedisTimeSeries · Celery · PostgreSQL · WebSockets  
 
 - Real-time market data ingestion
 - Data validation and transformation
@@ -32,17 +34,27 @@ market data from Binance.
 - PostgreSQL data persistence
 - FastAPI backend and WebSockets  
 
+### [European Air Quality](https://github.com/gwen-mp4/europe-air-quality)
+*- Work In Progress -*  
+Building a batch ELT pipeline to process European air quality data from the European Environment Agency (EEA), with a focus on data transformation, quality, and pipeline reliability.  
+
 <ins>**Technologies:**</ins>  
-Python · FastAPI · RedisTimeSeries · Celery · PostgreSQL · WebSockets
+Python · AWS S3 · Parquet · DuckDB · dbt  
 
----
+<ins>**Implemented**</ins>  
+- Established Bronze, Silver, and Gold data layers.
+- Implemented dbt models for staging, intermediate transformations, and analytical marts.
+- Created an initial analytical mart linking European countries to their air quality monitoring station counts.
 
-## 🔍 Currently Learning
-
-- Apache Spark / PySpark
-- Databricks
-- Delta Lake
-- Cloud data platforms
+<ins>**Planned**</ins>  
+- Ingest recent, non-verified air quality data and implement cleaning and validation workflows.
+- Add data quality checks using dbt tests and Soda.
+- Implement schema validation with Pydantic.
+- Orchestrate ingestion and transformation workflows with Apache Airflow.
+- Track data lineage across the pipeline.
+- Explore ACID-compliant table storage with Delta Lake.
+- Add pipeline monitoring and dashboards using Prometheus and Grafana.
+- Containerize the project to improve deployment and reproducibility.
 
 ---
 

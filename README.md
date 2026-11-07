@@ -35,26 +35,22 @@ Python · FastAPI · RedisTimeSeries · Celery · PostgreSQL · WebSockets
 - FastAPI backend and WebSockets  
 
 ### [European Air Quality](https://github.com/gwen-mp4/europe-air-quality)
-*- Work In Progress -*  
-Building a batch ELT pipeline to process European air quality data from the European Environment Agency (EEA), with a focus on data transformation, quality, and pipeline reliability.  
-
+**Personal project · Work in progress**  
+A batch ELT pipeline that ingests, cleans and models European air quality
+measurements from the European Environment Agency (EEA), with a focus on data
+quality and pipeline reliability.  
+<ins>**Scope — End-to-end pipeline design and implementation**</ins>  
 <ins>**Technologies:**</ins>  
-Python · AWS S3 · Parquet · DuckDB · dbt  
+Python · uv · AWS S3 · Parquet · DuckDB · dbt  
 
-<ins>**Implemented**</ins>  
-- Established Bronze, Silver, and Gold data layers.
-- Implemented dbt models for staging, intermediate transformations, and analytical marts.
-- Created an initial analytical mart linking European countries to their air quality monitoring station counts.
+- Python ingestion of EEA Parquet archives into an S3 data lake
+- Medallion architecture (bronze, silver, gold) modeled with dbt
+- Validity rules, sentinel handling and quality flags on 70M+ hourly measurements (more to come)
+- Station dimension with coordinates built from EEA metadata
+- dbt tests and documentation across staging, intermediate and mart models
+- Large-scale processing on a single machine with DuckDB  
 
-<ins>**Planned**</ins>  
-- Ingest recent, non-verified air quality data and implement cleaning and validation workflows.
-- Add data quality checks using dbt tests and Soda.
-- Implement schema validation with Pydantic.
-- Orchestrate ingestion and transformation workflows with Apache Airflow.
-- Track data lineage across the pipeline.
-- Explore ACID-compliant table storage with Delta Lake.
-- Add pipeline monitoring and dashboards using Prometheus and Grafana.
-- Containerize the project to improve deployment and reproducibility.
+*Next: interactive station map, CI with GitHub Actions, more countries.*
 
 ---
 

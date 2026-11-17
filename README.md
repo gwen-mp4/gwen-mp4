@@ -19,6 +19,24 @@ Optimization · Efficient Data Processing · Scalability
 
 ## 📂 Featured Projects
 
+### [European Air Quality](https://github.com/gwen-mp4/europe-air-quality)
+**Personal project · Work in progress**  
+An end-to-end batch ELT pipeline for European air quality data from the European Environment Agency (EEA), with a focus on data quality, metadata integration and reliable data processing.  
+<ins>**Scope — Pipeline design, implementation and data visualization**</ins>  
+<ins>**Technologies:**</ins>  
+Python · uv · AWS S3 · Parquet · DuckDB · dbt · Evidence · GitHub Actions
+
+- Python-based ingestion of EEA Parquet archives into an AWS S3 data lake
+- Medallion architecture (bronze, silver, gold) implemented with dbt and DuckDB
+- Processing of 540M+ hourly measurements on a single machine
+- Data quality rules based on EEA validity codes, including sentinel handling and quality flags
+- Geospatial station dimension built by integrating measurement data with EEA sampling point metadata
+- dbt tests and documentation across staging, intermediate and mart models
+- Interactive station map built with Evidence
+- CI workflow with GitHub Actions
+
+*Next: Static deployment of the interactive map and, optionally, ingestion of recent unverified data (E2a) with pipeline orchestration.*
+
 ### [Cryptocurrency Paper Trading Platform](https://github.com/Frogus-ex/ft_transcendence)  
 **Group project · École 42**  
 A full-stack paper trading platform based on real-time cryptocurrency
@@ -33,24 +51,6 @@ Python · FastAPI · RedisTimeSeries · Celery · PostgreSQL · WebSockets
 - Celery background processing
 - PostgreSQL data persistence
 - FastAPI backend and WebSockets  
-
-### [European Air Quality](https://github.com/gwen-mp4/europe-air-quality)
-**Personal project · Work in progress**  
-A batch ELT pipeline that ingests, cleans and models European air quality
-measurements from the European Environment Agency (EEA), with a focus on data
-quality and pipeline reliability.  
-<ins>**Scope — End-to-end pipeline design and implementation**</ins>  
-<ins>**Technologies:**</ins>  
-Python · uv · AWS S3 · Parquet · DuckDB · dbt  
-
-- Python ingestion of EEA Parquet archives into an S3 data lake
-- Medallion architecture (bronze, silver, gold) modeled with dbt
-- Validity rules, sentinel handling and quality flags on 70M+ hourly measurements (more to come)
-- Station dimension with coordinates built from EEA metadata
-- dbt tests and documentation across staging, intermediate and mart models
-- Large-scale processing on a single machine with DuckDB  
-
-*Next: interactive station map, CI with GitHub Actions, more countries.*
 
 ---
 

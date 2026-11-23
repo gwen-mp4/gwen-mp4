@@ -2,18 +2,7 @@
 
 #### **Computer Science Student · Data Engineering**
 
-I am a Computer Science student at École 42 Paris, currently developing a
-specialization in Data Engineering through hands-on projects and self-directed learning.
-
-I'm particularly interested in:  
-- **Data Engineering**  
-Data Pipelines · ETL · Data Processing · Data Architecture
-
-- **Data Quality**  
-Data Validation · Reliability · Observability
-
-- **Performance**  
-Optimization · Efficient Data Processing · Scalability
+I am a Computer Science student at École 42 Paris, focusing on Data Engineering through hands-on projects and self-directed learning. I am particularly interested in building reliable data pipelines, designing data architectures, and developing efficient data processing workflows, with a strong focus on data quality, validation, observability, and performance.  
 
 ---
 

@@ -24,7 +24,7 @@ Python · uv · AWS S3 · Parquet · DuckDB · dbt · Evidence · GitHub Actions
 - Interactive station map built with Evidence
 - CI workflow with GitHub Actions
 
-*Next: Static deployment of the interactive map and, optionally, ingestion of recent unverified data (E2a) with pipeline orchestration.*
+*Next: Optionally, ingestion of recent unverified data (E2a) with pipeline orchestration.*
 
 ### [Cryptocurrency Paper Trading Platform](https://github.com/Frogus-ex/ft_transcendence)  
 **Group project · École 42**  
